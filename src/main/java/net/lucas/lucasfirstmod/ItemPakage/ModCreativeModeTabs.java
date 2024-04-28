@@ -1,5 +1,6 @@
 package net.lucas.lucasfirstmod.ItemPakage;
 
+import net.lucas.lucasfirstmod.Block.ModBlocks;
 import net.lucas.lucasfirstmod.LucasFirstMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -21,6 +22,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItemsClass.SAPPHIRE.get());
                         output.accept(ModItemsClass.RAW_SAPPHIRE.get());
+
+                        output.accept(ModBlocks.Sapphire_Block.get());
+                        output.accept(ModBlocks.Raw_Sapphire_Block.get());
                     })
                     .build());
 

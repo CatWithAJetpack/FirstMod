@@ -1,6 +1,7 @@
 package net.lucas.lucasfirstmod;
 
 import com.mojang.logging.LogUtils;
+import net.lucas.lucasfirstmod.Block.ModBlocks;
 import net.lucas.lucasfirstmod.ItemPakage.ModCreativeModeTabs;
 import net.lucas.lucasfirstmod.ItemPakage.ModItemsClass;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,7 @@ public class LucasFirstMod
 
         ModCreativeModeTabs.register(modEventBus);
         ModItemsClass.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

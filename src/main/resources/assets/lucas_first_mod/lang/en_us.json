@@ -1,5 +1,9 @@
 {
   "item.lucas_first_mod.sapphire": "Sapphire",
-  "item.lucas_first_mod.raw_sapphire": "Raw sapphire",
+  "item.lucas_first_mod.raw_sapphire": "Raw Sapphire",
+
+  "block.lucas_first_mod.sapphire_block":"Sapphire Block",
+  "block.lucas_first_mod.raw_sapphire_block":"Raw Sapphire Block",
+
   "creativetab.sapphire_tab": "Sapphire"
 }
